@@ -31,3 +31,4 @@ Meta.DisplayName=Toontown Archipelago
 Meta.EndpointURIFormat=
 Meta.OS=2
 Meta.URL=: https://github.com/toontown-archipelago/toontown-archipelago
+Meta.SpecificDockerImage=CakeGamingOfficial/Toontown-Archipelago
