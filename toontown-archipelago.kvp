@@ -10,7 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=b1ff995b-bc80-4ba5-a6e6-da8d9378174a
+Meta.AppConfigId=ca365cc6-bac9-4b37-ac82-c5ae32f4274c
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
@@ -77,7 +77,7 @@ Meta.DisplayImageSource=url:https://avatars.githubusercontent.com/u/164748629?s=
 App.BaseDirectory=./toontown-archipelago/serverfiles/
 App.WorkingDir=serverfiles
 App.ExecutableWin=serverfiles\
-App.ExecutableLinux=serverfiles/toontown-archipelago-main/launch/docker
+App.ExecutableLinux=serverfiles/usr/bin/docker
 App.LinuxCommandLineArgs=docker compose -f "/ABSOLUTE/PATH/toontown-archipelago-main/launch/docker/docker-compose.yml" up -d --remove-orphans
 App.Ports=@IncludeJson[toontown-archipelagoports.json]
 App.UpdateSources=@IncludeJson[toontown-archipelagoupdates.json]
