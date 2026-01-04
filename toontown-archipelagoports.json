@@ -5,12 +5,5 @@
         "Name": "",
         "Description": "Port used for main game traffic",
         "Ref": ""
-    },
-    {
-        "Protocol": "Both",
-        "Port": "7199",
-        "Name": "",
-        "Description": "Port used for main game traffic",
-        "Ref": ""
     }
 ]
